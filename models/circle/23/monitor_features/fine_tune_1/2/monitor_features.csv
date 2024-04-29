@@ -1,0 +1,6 @@
+nan_loss,test_not_well,test_turn_bad,sc_accuracy,died_relu,vanish_gradient,explode_gradient,nan_gradient,large_weight,nan_weight,weight_change_little,decrease_acc,increase_loss,cons_mean_weight,cons_std_weight,nan_acc,loss,acc,val_loss,val_acc
+0,0,0,False,False,False,False,False,0,False,0,0,0,0,0,0,1.3157013654708862,0.625,0.9988012313842773,0.6857143044471741
+0,0,0,False,False,False,False,False,0,False,0,0,0,0,1,0,1.3125351667404175,0.63461536,0.9952074289321899,0.6857143044471741
+0,0,0,False,False,False,False,False,0,False,0,0,0,0,2,0,1.3088188171386719,0.63461536,0.9903246164321899,0.6571428775787354
+0,0,0,False,False,False,False,False,0,False,0,0,0,0,3,0,1.30497407913208,0.6442308,0.9841353297233582,0.6571428775787354
+0,0,0,False,False,False,False,False,0,False,0,0,0,0,4,0,1.3010321855545044,0.6442308,0.9771197438240051,0.6857143044471741
