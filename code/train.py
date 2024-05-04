@@ -315,7 +315,7 @@ def motivation():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('-o', type=str, choices=['train','compare','dis3'], help='choose to train classsifiers or compare the results')
+    parser.add_argument('-o', type=str, choices=['train','compare','each_class'], help='choose to train classsifiers or compare the results')
     parser.add_argument('-m1', type=str, choices=['BC','A', 'B','C'], help='metric 1')
     parser.add_argument('-m2', type=str, choices=['BC','A', 'B','C'], help='metric 2')
     args = parser.parse_args()
@@ -326,7 +326,7 @@ if __name__ == "__main__":
             evaluate(dataset_name)  
     elif args.o == 'compare':      
         hypothesis_testing(args.m1, args.m2)
-    elif args.o == 'dis3':
+    elif args.o == 'each_class':
         evaluation_each_class('all')
     # motivation()
 

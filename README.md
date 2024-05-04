@@ -64,15 +64,15 @@ python get_time.py
 ```
 
 ### Discussion
-- Compare the performance of RF classifier with and without PCA process.
-```
-python pca_process.py
-```
 - Calculate the gain ratio of individual metric
 ```
 python gain_ratio.py
 ```
 - Effectiveness of fault diagnosis for different classes
 ```
-python train.py -o dis3
+python train.py -o each_class
+```
+- Compare the performance of RF classifier with and without PCA process.
+```
+python pca_process.py
 ```
